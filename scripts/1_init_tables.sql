@@ -43,9 +43,3 @@ CREATE TABLE poll_results (
     FOREIGN KEY (poll_event_id) REFERENCES poll_events (id) ON DELETE CASCADE,
     FOREIGN KEY (winner) REFERENCES option (id) ON DELETE CASCADE
 );
-
-INSERT INTO users (first_name, last_name, email)
-    VALUES ('John', 'Doe', 'johndoe@yahoo.com');
-
-INSERT INTO users (first_name, last_name, email, is_author)
-    VALUES ('Brandon', 'Sanderson', 'johndoe@yahoo.com', TRUE);
