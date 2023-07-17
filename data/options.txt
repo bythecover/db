@@ -1,0 +1,3 @@
+Poll Event Id,Name,Image
+1,'Option 1','some_image_link.jpg'
+1,'Option 2','some_image_link_again.jpg'
