@@ -1,1 +1,1 @@
-COPY users(first_name, last_name, email, is_author) FROM '/docker-entrypoint-initdb.d/users.txt' DELIMITER ',' CSV HEADER;
+COPY users(first_name, last_name, email, is_author) FROM '/docker-entrypoint-initdb.d/users.csv' DELIMITER ',' CSV HEADER;

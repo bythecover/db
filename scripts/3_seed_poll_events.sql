@@ -1,1 +1,1 @@
-COPY poll_events (created_by, expiration_date, title) FROM '/docker-entrypoint-initdb.d/poll_events.txt' DELIMITER ',' CSV HEADER;
+COPY poll_events (created_by, expiration_date, title) FROM '/docker-entrypoint-initdb.d/poll_events.csv' DELIMITER ',' CSV HEADER;
