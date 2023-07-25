@@ -1,0 +1,1 @@
+COPY votes (selection, poll_event_id, source, user_id) FROM '/docker-entrypoint-initdb.d/votes.csv' DELIMITER ',' CSV HEADER;

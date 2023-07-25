@@ -1,0 +1,5 @@
+First Name,Last Name,email,Is Author
+John,Appleseed,email@example.com,FALSE
+Bill,Gates,email@example.com,FALSE
+Ray,Bradbury,email@example.com,TRUE
+George,Orwell,email@example.com,TRUE
