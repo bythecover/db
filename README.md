@@ -16,4 +16,4 @@ Steps:
 3. Build the image from the Docker file with `docker build -t db .`
 4. Run the built image with `docker run -p 5432:5432 db` (This will expose the database on port 5432)
 
-At this point the database is running as a container and can 
+At this point the database is running as a container
